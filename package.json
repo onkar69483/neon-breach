@@ -1,0 +1,44 @@
+{
+  "name": "neon-breach",
+  "version": "0.1.0",
+  "description": "A fast, true-color first-person shooter that runs entirely in your terminal. Try it with: npx neon-breach",
+  "type": "module",
+  "author": "onkar69483",
+  "homepage": "https://github.com/onkar69483/neon-breach#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkar69483/neon-breach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onkar69483/neon-breach/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "neon-breach": "bin/neon-breach.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/neon-breach.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "game",
+    "fps",
+    "terminal",
+    "cli",
+    "raycasting",
+    "shooter",
+    "npx"
+  ],
+  "license": "MIT"
+}
